@@ -1,10 +1,10 @@
-# ghe-management
+# github-terraform
 
 ### Description
 
 - Githubの構成をテストするTerraformです
 
-### 構成
+### Directory Layout
 
 ```text
 .
@@ -18,7 +18,7 @@
 └── ${name}.tf            ... 任意のリソースを定義
 ```
 
-### リソース命名規則
+### resource naming rule
 #### team_member.tf
 
 リソース名：
